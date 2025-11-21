@@ -11,7 +11,6 @@ export const sendKalisMessage = async (userMessage: string): Promise<string> => 
       config: {
         systemInstruction: AI_SYSTEM_INSTRUCTION,
         temperature: 0.7,
-        maxOutputTokens: 300,
       },
     });
 
